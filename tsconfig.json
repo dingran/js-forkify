@@ -1,0 +1,18 @@
+{
+  "compileOnSave": true, // doesn't work, still need to use watch
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "./built",
+    "allowJs": true,
+    "lib": ["es6", "dom", "es2017"],
+    "target": "es5",
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true
+  },
+  "include": ["./src/**/*"]
+}
